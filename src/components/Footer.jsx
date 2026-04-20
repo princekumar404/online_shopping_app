@@ -24,7 +24,7 @@ export function Footer() {
                         <div className="contact-info">
                             <div className="contact-item mb-2">
                                 <FontAwesomeIcon icon={faMapMarkerAlt} className="contact-icon me-2" />
-                                <span><strong>Address:</strong> Bihar, India</span>
+                                <span><strong>Address:</strong> Punjab, India</span>
                             </div>
                             <div className="contact-item">
                                 <FontAwesomeIcon icon={faPhone} className="contact-icon me-2" />
@@ -38,7 +38,9 @@ export function Footer() {
                         <div className="quick-links-group">
                           <div className="quick-link-item">
   <FontAwesomeIcon icon={faLink} className="contact-icon me-2" />
-  <Link to="/privacy" className="footer-link">Privacy Policy</Link>
+  <a href="/privacy" target="_blank" className="footer-link">
+  Privacy Policy
+</a>
 </div>
 
 <div className="quick-link-item">
