@@ -65,15 +65,15 @@ export function Footer() {
                         <div className="quick-links-group">
                             <div className="quick-link-item">
                                 <FontAwesomeIcon icon={faLink} className="contact-icon me-2" />
-                                <a href="https://trainwithshubham.com" className="footer-link">Shipping Info</a>
+                                <a href="https://github.com/princekumar404" className="footer-link">Shipping Info</a>
                             </div>
                             <div className="quick-link-item">
                                 <FontAwesomeIcon icon={faLink} className="contact-icon me-2" />
-                                <a href="https://trainwithshubham.com" className="footer-link">FAQ</a>
+                                <a href="https://github.com/princekumar404" className="footer-link">FAQ</a>
                             </div>
                             <div className="quick-link-item">
                                 <FontAwesomeIcon icon={faLink} className="contact-icon me-2" />
-                                <a href="https://trainwithshubham.com" className="footer-link">Support</a>
+                                <a href="https://github.com/princekumar404" className="footer-link">Support</a>
                             </div>
                         </div>
                     </Col>
@@ -86,7 +86,7 @@ export function Footer() {
                             </h5>
                             <div className="social-links-horizontal">
                                 <a 
-                                    href="https://github.com/LondheShubham153" 
+                                    href="https://github.com/princekumar404" 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
                                     className="social-link"
@@ -94,7 +94,7 @@ export function Footer() {
                                     <FontAwesomeIcon icon={faGithub} />
                                 </a>
                                 <a 
-                                    href="https://linkedin.com/in/shubhamlondhe1996" 
+                                    href="https://www.linkedin.com/feed/" 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
                                     className="social-link"
@@ -102,7 +102,7 @@ export function Footer() {
                                     <FontAwesomeIcon icon={faLinkedin} />
                                 </a>
                                 <a 
-                                    href="https://twitter.com/trainwitshubham" 
+                                    href="https://www.linkedin.com/feed/" 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
                                     className="social-link"
@@ -125,7 +125,7 @@ export function Footer() {
                             rel="noopener noreferrer"
                             className="author-link"
                         >
-                            Md. Afzal Hassan Ehsani
+                           Mr. Prince Kumar
                         </a>
                     </div>
                     <div>
@@ -133,7 +133,7 @@ export function Footer() {
                         All rights reserved.
                     </div>
                     <div className="mt-1">
-                    Driven for TrainWithShubham Community.
+                    Driven for Devops Community.
                     </div>
                 </div>
             </Container>
