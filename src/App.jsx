@@ -1,3 +1,7 @@
+import Privacy from "./pages/Privacy";
+import Terms from "./pages/Terms";
+import FAQ from "./pages/FAQ";
+import Support from "./pages/Support";
 import { Routes, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import { Navbar } from "./components/Navbar";
@@ -23,6 +27,10 @@ export default function App() {
                                 <Route path="/" element={<Store />} />
                                 <Route path="/admin" element={<Admin />} />
                                 <Route path="/checkout" element={<Checkout />} />
+                                <Route path="/privacy" element={<Privacy />} />
+                                <Route path="/terms" element={<Terms />} />
+                                <Route path="/faq" element={<FAQ />} />
+                                <Route path="/support" element={<Support />} />
                             </Routes>
                         </Container>
                         <Footer />
