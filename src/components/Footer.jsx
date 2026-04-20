@@ -1,4 +1,5 @@
-﻿import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faHeart, faCopyright, faMapMarkerAlt, faPhone, faArrowRight, faLink } from "@fortawesome/free-solid-svg-icons";
@@ -35,18 +36,25 @@ export function Footer() {
                     <Col md={3}>
                         <h5 className="footer-heading mb-3">Quick Links</h5>
                         <div className="quick-links-group">
-                            <div className="quick-link-item">
-                                <FontAwesomeIcon icon={faLink} className="contact-icon me-2" />
-                                <a href="https://trainwithshubham.com" className="footer-link">Privacy Policy</a>
-                            </div>
-                            <div className="quick-link-item">
-                                <FontAwesomeIcon icon={faLink} className="contact-icon me-2" />
-                                <a href="https://trainwithshubham.com" className="footer-link">Terms & Conditions</a>
-                            </div>
-                            <div className="quick-link-item">
-                                <FontAwesomeIcon icon={faLink} className="contact-icon me-2" />
-                                <a href="https://trainwithshubham.com" className="footer-link">Return Policy</a>
-                            </div>
+                          <div className="quick-link-item">
+  <FontAwesomeIcon icon={faLink} className="contact-icon me-2" />
+  <Link to="/privacy" className="footer-link">Privacy Policy</Link>
+</div>
+
+<div className="quick-link-item">
+  <FontAwesomeIcon icon={faLink} className="contact-icon me-2" />
+  <Link to="/terms" className="footer-link">Terms & Conditions</Link>
+</div>
+
+<div className="quick-link-item">
+  <FontAwesomeIcon icon={faLink} className="contact-icon me-2" />
+  <Link to="/faq" className="footer-link">FAQ</Link>
+</div>
+
+<div className="quick-link-item">
+  <FontAwesomeIcon icon={faLink} className="contact-icon me-2" />
+  <Link to="/support" className="footer-link">Support</Link>
+</div>
                         </div>
                     </Col>
 
